@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:Microchip:test;1",
+    "@id": "dtmi:com:Microchip:test;2",
     "@type": "Interface",
     "contents": [
         {
@@ -91,7 +91,7 @@
                 "en": "RGB LED (BLUE PWM Duty Cycle)"
             },
             "name": "rgb_led_blue",
-            "schema": "dtmi:com:Microchip:WBZ451_Curiosity:dutyCycle;1",
+            "schema": "dtmi:com:Microchip:test:dutyCycle;1",
             "writable": true,
             "initialValue": 0
         },
@@ -107,7 +107,7 @@
                 "en": "RGB LED (GREEN PWM Duty Cycle)"
             },
             "name": "rgb_led_green",
-            "schema": "dtmi:com:Microchip:WBZ451_Curiosity:dutyCycle;1",
+            "schema": "dtmi:com:Microchip:test:dutyCycle;1",
             "writable": true,
             "initialValue": 0
         },
@@ -123,7 +123,7 @@
                 "en": "RGB LED (RED PWM Duty Cycle)"
             },
             "name": "rgb_led_red",
-            "schema": "dtmi:com:Microchip:WBZ451_Curiosity:dutyCycle;1",
+            "schema": "dtmi:com:Microchip:test:dutyCycle;1",
             "writable": true,
             "initialValue": 0
         },
@@ -139,7 +139,7 @@
                 "en": "User LED"
             },
             "name": "led_user",
-            "schema": "dtmi:com:Microchip:WBZ451_Curiosity:LedState;1",
+            "schema": "dtmi:com:Microchip:test:LedState;1",
             "writable": true,
             "initialValue": 3
         },
@@ -337,11 +337,11 @@
     },
     "schemas": [
         {
-            "@id": "dtmi:com:Microchip:WBZ451_Curiosity:LedState;1",
+            "@id": "dtmi:com:Microchip:test:LedState;1",
             "@type": "Enum",
             "enumValues": [
                 {
-                    "@id": "dtmi:com:Microchip:WBZ451_Curiosity:LedState:On;1",
+                    "@id": "dtmi:com:Microchip:test:LedState:On;1",
                     "displayName": {
                         "en": "On"
                     },
@@ -349,7 +349,7 @@
                     "name": "On"
                 },
                 {
-                    "@id": "dtmi:com:Microchip:WBZ451_Curiosity:LedState:Off;1",
+                    "@id": "dtmi:com:Microchip:test:LedState:Off;1",
                     "displayName": {
                         "en": "Off"
                     },
@@ -357,7 +357,7 @@
                     "name": "Off"
                 },
                 {
-                    "@id": "dtmi:com:Microchip:WBZ451_Curiosity:LedState:Blink;1",
+                    "@id": "dtmi:com:Microchip:test:LedState:Blink;1",
                     "displayName": {
                         "en": "Blinking"
                     },
@@ -368,11 +368,11 @@
             "valueSchema": "integer"
         },
         {
-            "@id": "dtmi:com:Microchip:WBZ451_Curiosity:dutyCycle;1",
+            "@id": "dtmi:com:Microchip:test:dutyCycle;1",
             "@type": "Enum",
             "enumValues": [
                 {
-                    "@id": "dtmi:com:Microchip:WBZ451_Curiosity:dutyCycle:zero;1",
+                    "@id": "dtmi:com:Microchip:test:dutyCycle:zero;1",
                     "displayName": {
                         "en": "  0% Duty Cycle"
                     },
@@ -380,7 +380,7 @@
                     "name": "duty_000"
                 },
                 {
-                    "@id": "dtmi:com:Microchip:WBZ451_Curiosity:dutyCycle:one_hundred;1",
+                    "@id": "dtmi:com:Microchip:test:dutyCycle:one_hundred;1",
                     "displayName": {
                         "en": "100% Duty Cycle"
                     },
