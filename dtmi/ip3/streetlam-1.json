@@ -1,8 +1,8 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:ip3:streetlamp;1",
+  "@id": "dtmi:ip3:streetlam;1",
   "@type": "Interface",
-  "displayName": "streetlamp",
+  "displayName": "streetlam",
   "description": "ip3.co.ltd",
   "contents": [
     {
