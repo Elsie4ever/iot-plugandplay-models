@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '**/*'
+
 jobs:
   validate-repository-submission:
     runs-on: ubuntu-latest
