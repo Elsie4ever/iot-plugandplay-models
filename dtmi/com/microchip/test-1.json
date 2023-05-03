@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:Microchip:test;2",
+    "@id": "dtmi:com:Microchip:test;1",
     "@type": "Interface",
     "contents": [
         {
